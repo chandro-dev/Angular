@@ -1,15 +1,28 @@
 export class persona{
  
-    
-    nombre : string;
-    edad :number;
-    cedula :number;
-    url:string
+   /*
+    cc:number;
+    nombre:string;
+    title:string;
+    ldatos:string;
+    iD_Director:number;
+    iD_jurado:number;
+    iD_Estudiante:number;
+    */
+    id:Number;
+    nombre:string;
     constructor(){
-        this.cedula=0;
-        this.edad=0;
+        /*
+        this.cc=0;
+        this.title="";
         this.nombre="";
-        this.url="";
+        this.ldatos="";
+        this.iD_Director=0;
+        this.iD_jurado=0;
+        this.iD_Estudiante=0;
+        */
+        this.id=0;
+        this.nombre="";
     }
 
 

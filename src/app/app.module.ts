@@ -7,16 +7,20 @@ import { PeticionComponent } from './peticion/peticion.component';
 import { TitulosComponent } from './titulos/titulos.component';
 import { FormsModule } from '@angular/forms';
 
+import{HttpClientModule}from'@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
     PeticionComponent,
-    TitulosComponent
+    TitulosComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
